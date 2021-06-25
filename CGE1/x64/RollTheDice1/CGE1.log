@@ -1,0 +1,13 @@
+﻿  rolltTheDice.c
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\rolltTheDice.c(30,36): warning C4133: 'function': incompatible types - from 'char [21]' to 'FILE *const '
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\rolltTheDice.c(68,17): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\rolltTheDice.c(68,24): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\rolltTheDice.c(68,31): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\rolltTheDice.c(141,33): warning C4013: 'getTexture' undefined; assuming extern returning int
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\rolltTheDice.c(285,41): warning C4142: 'getTexture': benign redefinition of type
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\rolltTheDice.c(290,28): warning C4090: 'function': different 'const' qualifiers
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\rolltTheDice.c(295,9): warning C4033: 'getTexture' must return a value
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\rolltTheDice.c(300,9): warning C4033: 'getTexture' must return a value
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\rolltTheDice.c(344,27): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\rolltTheDice.c(326): warning C4715: 'getTexture': not all control paths return a value
+  CGE1.vcxproj -> C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\CGE1\x64\RollTheDice1\CGE_Projekt.exe

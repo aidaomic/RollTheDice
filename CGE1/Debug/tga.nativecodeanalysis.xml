@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+      <FILENAME>tga.c</FILENAME>
+      <LINE>220</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'newImageData':  the writable size is 'sizeof(unsigned char)*info-&gt;height*(unsigned int)info-&gt;width' bytes, but '2' bytes might be written.</DESCRIPTION>
+    <FUNCTION>tgaRGBtoGreyscale</FUNCTION>
+    <DECORATED>tgaRGBtoGreyscale</DECORATED>
+    <FUNCLINE>198</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>200</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>200</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>200</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>202</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>209</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>212</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newImageData' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>214</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'newImageData==(((void *)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>219</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>219</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;info-&gt;width*info-&gt;height')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>219</LINE>
+        <COLUMN>60</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'j' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>219</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'j&lt;info-&gt;width*info-&gt;height')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'newImageData', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+      <FILENAME>tga.c</FILENAME>
+      <LINE>323</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'newFilename' could be '0':  this does not adhere to the specification for the function 'sprintf'. </DESCRIPTION>
+    <FUNCTION>tgaSaveSeries</FUNCTION>
+    <DECORATED>tgaSaveSeries</DECORATED>
+    <FUNCLINE>311</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>317</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>318</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newFilename' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'newFilename' is an Input to 'sprintf' (declared at c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h:1764)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\05_textures\</FILEPATH>
+        <FILENAME>tga.c</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'newFilename' should not be NULL, because this is not consistent with the SAL annotation on 'sprintf'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

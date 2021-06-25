@@ -1,0 +1,454 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'newImageData':  the writable size is 'sizeof(unsigned char)*info->height*(unsigned int)info->width' bytes, but '2' bytes might be written."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                },
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "tgaRGBtoGreyscale",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 200,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 200,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 200,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 202,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 205,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 209,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 212,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'newImageData' is a 0 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 214,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'newImageData==(((void *)0))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 219,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 219,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'j<info->width*info->height')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 220,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 219,
+                            "startColumn": 61
+                          }
+                        },
+                        "message": {
+                          "text": "'j' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 219,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'j<info->width*info->height')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 220,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'newImageData', (outside its writable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'newFilename' could be '0':  this does not adhere to the specification for the function 'sprintf'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                },
+                "region": {
+                  "startLine": 323,
+                  "startColumn": 3,
+                  "endLine": 323,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "tgaSaveSeries",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 317,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 318,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 321,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'newFilename' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 323,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'newFilename' is an Input to 'sprintf' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:1764)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+                          },
+                          "region": {
+                            "startLine": 323,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'newFilename' should not be NULL, because this is not consistent with the SAL annotation on 'sprintf'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30038.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00DEC1C0 -il C:\\Users\\omaid\\AppData\\Local\\Temp\\_CL_1aab2b5fast -typedil -f ..\\..\\Sources\\05_textures\\tga.c -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930038 -D_MSC_BUILD=1 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -I C:\\Users\\omaid\\Dropbox\\Mein PC (LAPTOP-45NNE962)\\Documents\\Studium\\SS21\\CGE\\CGE1\\packages\\nupengl.core.0.1.0.1\\build\\native\\include\\ -I C:\\Users\\omaid\\Dropbox\\Mein PC (LAPTOP-45NNE962)\\Documents\\Studium\\SS21\\CGE\\freeglut\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -FoDebug\\tga.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\omaid\\Dropbox\\Mein PC (LAPTOP-45NNE962)\\Documents\\Studium\\SS21\\CGE\\CGE1\\CGE1 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/omaid/Dropbox/Mein PC (LAPTOP-45NNE962)/Documents/Studium/SS21/CGE/Sources/05_textures/tga.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4f46693627d80b9f80eb6c044bd3f36f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/omaid/dropbox/mein pc (laptop-45nne962)/documents/studium/ss21/cge/cge1/packages/nupengl.core.0.1.0.1/build/native/include/gl/glut.h"
+          },
+          "hashes": {
+            "md5": "19e63fab89b60b64cfc6a251de0faa3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/omaid/dropbox/mein pc (laptop-45nne962)/documents/studium/ss21/cge/cge1/packages/nupengl.core.0.1.0.1/build/native/include/gl/freeglut_std.h"
+          },
+          "hashes": {
+            "md5": "2c3062a564cf518785daf714106c1096"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/omaid/dropbox/mein pc (laptop-45nne962)/documents/studium/ss21/cge/sources/05_textures/tga.h"
+          },
+          "hashes": {
+            "md5": "b94667951935e7da07745aa2d7284469"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+﻿  first.c
+C:\Users\omaid\Dropbox\Mein PC (LAPTOP-45NNE962)\Documents\Studium\SS21\CGE\Sources\01_basic_glut_example\first.c(1,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "GL/glut.h": No such file or directory
